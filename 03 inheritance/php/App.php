@@ -1,5 +1,4 @@
 <?php
-// Wajib memuat semua kelas yang akan diinisiasi menjadi objek
 require_once 'BangunDatar.php';
 require_once 'Lingkaran.php';
 require_once 'Persegi.php';

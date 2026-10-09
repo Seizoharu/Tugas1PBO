@@ -1,8 +1,5 @@
 <?php
-// PHP tidak memerlukan class Main atau method main() untuk menjalankan program. 
-// Eksekusi berjalan langsung dari atas ke bawah.
-
-// membuat object iPhone dari class iPhone
+require_once __DIR__ . '/iPhone.php';
 $iphone13 = new iPhone("Red", "128GB"); // proses inisiasi atau instantiation
 $iphone14 = new iPhone("Grey", "256GB"); // proses inisiasi atau instantiation
 
